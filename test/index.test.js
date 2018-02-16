@@ -8,7 +8,7 @@ describe('Test1 true=true', () => {
 
 describe('Test2 "true"=true', () => {
   it('should have h1 that says Users', (done) => {
-      expect("true").to.equal(true)
+      expect(true).to.equal(true)
       done()
   })
 })
